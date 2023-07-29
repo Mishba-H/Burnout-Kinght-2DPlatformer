@@ -10,4 +10,11 @@ Grapple mechanics.
 
 Uses Unity's Input System.  
 Uses Script Seperation technique which allows for writing different mechanics in different scripts which depend on one another.  
-I have added various sublte features that make the game feel better such as Jump Buffer, Coyote Time, JumpApex Modulation and much more.  
+Added various sublte features that make the game feel better such as Jump Buffer, Coyote Time, JumpApex Modulation and much more.  
+
+### Other Player scripts of importance:  
+PlayerStatsScript : Manages health of the player  
+PlayerRespawnScript : Respawns player to the lastest checkpoint on death  
+PlayerAnimationScript : Mangages all animations to be played using a State Machine  
+PlayerInputScript : Handles all input and supports both Keyboard-Mouse & Controller  
+PlayerCollisionScript : Detects Collision with different objects  
