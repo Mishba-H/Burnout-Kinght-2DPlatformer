@@ -1,7 +1,7 @@
 # 2DPlatformerPlayerMechanics
 This contains code from my personal 2d platformer project. I invested a lot of time in implementing player mechanics and integrating various mechanics toghether.
 
-Player Mechanics Included:
+## Player Mechanics Included:
 Movement : Walk, Run, movement on slope
 Jump, Air Jump
 8-directional Dash
